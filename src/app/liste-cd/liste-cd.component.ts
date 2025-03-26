@@ -13,6 +13,6 @@ export class ListeCDComponent implements OnInit{
   constructor(private myCDsService: CdsService) {}
 
   ngOnInit(): void {
-    this.myCDsService.getCDs().subscribe((cds) => {this.listcd = cds;})
+    this.myCDsService.getCDs().subscribe(cds => {this.listcd = cds});
   }
 }

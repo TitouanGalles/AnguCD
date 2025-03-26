@@ -52,19 +52,19 @@ export class NewCDComponent implements OnInit {
     })
   }
 
-  addCD(): void{
-    let newCD: CD = {
-      id: 0,
-      title: this.formulaire.get('titre')?.value,
-      author: this.formulaire.get('author')?.value,
-      thumbnail: this.formulaire.get('thumbnail')?.value,
-      dateDeSortie: this.formulaire.get('dateDeSortie')?.value,
-      quantite: this.formulaire.get('quantite')?.value,
-      price: this.formulaire.get('price')?.value,
-      onsale: false
+  // addCD(): void{
+  //   let newCD: CD = {
+  //     id: 0,
+  //     title: this.formulaire.get('titre')?.value,
+  //     author: this.formulaire.get('author')?.value,
+  //     thumbnail: this.formulaire.get('thumbnail')?.value,
+  //     dateDeSortie: this.formulaire.get('dateDeSortie')?.value,
+  //     quantite: this.formulaire.get('quantite')?.value,
+  //     price: this.formulaire.get('price')?.value,
+  //     onsale: false
 
-    }
-  }
+  //   }
+  // }
 
   ajouterCd(): void{
 
